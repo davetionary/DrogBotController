@@ -1,4 +1,21 @@
 #Pseudo code
 
+#Startup
 
-#Follow Line
+#Main Race Mode
+
+	#Check for escape sequence
+
+	#Check Sensors
+
+		#If LeftSensor=1 and RightSensor=0, increase servo speed in right wheel
+
+		#If LeftSensor=0 AND RightSensor=0, set servos to cruise max
+
+		#Delay 500ms
+
+	#Repeat Race Mode	
+	
+#Idle Mode
+
+	#Check for race sequence
